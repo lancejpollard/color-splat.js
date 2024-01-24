@@ -1,0 +1,794 @@
+[
+  {
+    "rgb": [
+      255,
+      219,
+      171
+    ],
+    "name": "Peach puff"
+  },
+  {
+    "rgb": [
+      206,
+      177,
+      128
+    ],
+    "name": "Light French beige"
+  },
+  {
+    "rgb": [
+      252,
+      209,
+      42
+    ],
+    "name": "Tuscany"
+  },
+  {
+    "rgb": [
+      255,
+      250,
+      205
+    ],
+    "name": "Lemon chiffon"
+  },
+  {
+    "rgb": [
+      238,
+      210,
+      2
+    ],
+    "name": "Safety yellow"
+  },
+  {
+    "rgb": [
+      242,
+      198,
+      73
+    ],
+    "name": "Maize crayola"
+  },
+  {
+    "rgb": [
+      251,
+      206,
+      177
+    ],
+    "name": "Apricot"
+  },
+  {
+    "rgb": [
+      255,
+      253,
+      116
+    ],
+    "name": "Butter"
+  },
+  {
+    "rgb": [
+      255,
+      225,
+      53
+    ],
+    "name": "Banana"
+  },
+  {
+    "rgb": [
+      255,
+      255,
+      0
+    ],
+    "name": "True yellow"
+  },
+  {
+    "rgb": [
+      251,
+      236,
+      93
+    ],
+    "name": "Corn"
+  },
+  {
+    "rgb": [
+      207,
+      181,
+      59
+    ],
+    "name": "Old gold"
+  },
+  {
+    "rgb": [
+      252,
+      217,
+      0
+    ],
+    "name": "Sizzling sunrise"
+  },
+  {
+    "rgb": [
+      254,
+      220,
+      86
+    ],
+    "name": "Mustard"
+  },
+  {
+    "rgb": [
+      242,
+      186,
+      73
+    ],
+    "name": "Maximum yellow red"
+  },
+  {
+    "rgb": [
+      255,
+      255,
+      153
+    ],
+    "name": "Light canary"
+  },
+  {
+    "rgb": [
+      207,
+      255,
+      4
+    ],
+    "name": "Neon yellow"
+  },
+  {
+    "rgb": [
+      255,
+      255,
+      224
+    ],
+    "name": "Light yellow"
+  },
+  {
+    "rgb": [
+      252,
+      232,
+      131
+    ],
+    "name": "Yellow crayola"
+  },
+  {
+    "rgb": [
+      253,
+      245,
+      230
+    ],
+    "name": "Old lace"
+  },
+  {
+    "rgb": [
+      255,
+      196,
+      12
+    ],
+    "name": "Mikado yellow"
+  },
+  {
+    "rgb": [
+      250,
+      218,
+      94
+    ],
+    "name": "Royal yellow"
+  },
+  {
+    "rgb": [
+      233,
+      214,
+      107
+    ],
+    "name": "Arylide yellow"
+  },
+  {
+    "rgb": [
+      238,
+      234,
+      98
+    ],
+    "name": "Greenish yellow"
+  },
+  {
+    "rgb": [
+      244,
+      196,
+      48
+    ],
+    "name": "Saffron"
+  },
+  {
+    "rgb": [
+      253,
+      190,
+      2
+    ],
+    "name": "Mango"
+  },
+  {
+    "rgb": [
+      252,
+      226,
+      5
+    ],
+    "name": "Bumblebee"
+  },
+  {
+    "rgb": [
+      238,
+      237,
+      9
+    ],
+    "name": "Xanthic"
+  },
+  {
+    "rgb": [
+      248,
+      222,
+      126
+    ],
+    "name": "Jasmine"
+  },
+  {
+    "rgb": [
+      236,
+      177,
+      118
+    ],
+    "name": "Middle yellow red"
+  },
+  {
+    "rgb": [
+      255,
+      248,
+      220
+    ],
+    "name": "Cornsilk"
+  },
+  {
+    "rgb": [
+      204,
+      160,
+      29
+    ],
+    "name": "Lemon curry"
+  },
+  {
+    "rgb": [
+      255,
+      246,
+      0
+    ],
+    "name": "Cadmium yellow"
+  },
+  {
+    "rgb": [
+      255,
+      253,
+      1
+    ],
+    "name": "Bright yellow"
+  },
+  {
+    "rgb": [
+      227,
+      171,
+      87
+    ],
+    "name": "Sunray"
+  },
+  {
+    "rgb": [
+      204,
+      119,
+      34
+    ],
+    "name": "Ochre"
+  },
+  {
+    "rgb": [
+      255,
+      229,
+      180
+    ],
+    "name": "Peach"
+  },
+  {
+    "rgb": [
+      255,
+      255,
+      204
+    ],
+    "name": "Cream"
+  },
+  {
+    "rgb": [
+      213,
+      182,
+      10
+    ],
+    "name": "Dark yellow"
+  },
+  {
+    "rgb": [
+      225,
+      169,
+      95
+    ],
+    "name": "Earth yellow"
+  },
+  {
+    "rgb": [
+      255,
+      223,
+      0
+    ],
+    "name": "Golden yellow"
+  },
+  {
+    "rgb": [
+      248,
+      222,
+      126
+    ],
+    "name": "Mellow yellow"
+  },
+  {
+    "rgb": [
+      238,
+      220,
+      130
+    ],
+    "name": "Flax"
+  },
+  {
+    "rgb": [
+      218,
+      221,
+      152
+    ],
+    "name": "Green yellow"
+  },
+  {
+    "rgb": [
+      255,
+      173,
+      1
+    ],
+    "name": "Orange yellow"
+  },
+  {
+    "rgb": [
+      255,
+      211,
+      0
+    ],
+    "name": "Cyber yellow"
+  },
+  {
+    "rgb": [
+      255,
+      221,
+      175
+    ],
+    "name": "Navajo"
+  },
+  {
+    "rgb": [
+      254,
+      238,
+      170
+    ],
+    "name": "Medium champagne"
+  },
+  {
+    "rgb": [
+      223,
+      255,
+      0
+    ],
+    "name": "Chartreuse traditional"
+  },
+  {
+    "rgb": [
+      255,
+      227,
+      110
+    ],
+    "name": "Yellow tan"
+  },
+  {
+    "rgb": [
+      252,
+      247,
+      94
+    ],
+    "name": "Icterine"
+  },
+  {
+    "rgb": [
+      255,
+      167,
+      0
+    ],
+    "name": "Chrome yellow"
+  },
+  {
+    "rgb": [
+      255,
+      204,
+      51
+    ],
+    "name": "Sunglow"
+  },
+  {
+    "rgb": [
+      245,
+      224,
+      80
+    ],
+    "name": "Minion yellow"
+  },
+  {
+    "rgb": [
+      228,
+      208,
+      10
+    ],
+    "name": "Citrine"
+  },
+  {
+    "rgb": [
+      209,
+      226,
+      49
+    ],
+    "name": "Pear"
+  },
+  {
+    "rgb": [
+      255,
+      191,
+      0
+    ],
+    "name": "Amber"
+  },
+  {
+    "rgb": [
+      196,
+      145,
+      2
+    ],
+    "name": "Dijon"
+  },
+  {
+    "rgb": [
+      255,
+      178,
+      0
+    ],
+    "name": "Honey"
+  },
+  {
+    "rgb": [
+      255,
+      230,
+      168
+    ],
+    "name": "Banana mania"
+  },
+  {
+    "rgb": [
+      239,
+      204,
+      0
+    ],
+    "name": "Yellow Munsell"
+  },
+  {
+    "rgb": [
+      255,
+      254,
+      113
+    ],
+    "name": "Pastel yellow"
+  },
+  {
+    "rgb": [
+      246,
+      255,
+      117
+    ],
+    "name": "Laser lemon"
+  },
+  {
+    "rgb": [
+      248,
+      228,
+      115
+    ],
+    "name": "Laguna"
+  },
+  {
+    "rgb": [
+      250,
+      250,
+      55
+    ],
+    "name": "Maximum yellow"
+  },
+  {
+    "rgb": [
+      236,
+      201,
+      131
+    ],
+    "name": "Gold crayola"
+  },
+  {
+    "rgb": [
+      246,
+      223,
+      177
+    ],
+    "name": "Wheat"
+  },
+  {
+    "rgb": [
+      128,
+      128,
+      0
+    ],
+    "name": "Olive"
+  },
+  {
+    "rgb": [
+      244,
+      202,
+      22
+    ],
+    "name": "Jonquil"
+  },
+  {
+    "rgb": [
+      238,
+      232,
+      170
+    ],
+    "name": "Pale goldenrod"
+  },
+  {
+    "rgb": [
+      238,
+      230,
+      0
+    ],
+    "name": "Titanium yellow"
+  },
+  {
+    "rgb": [
+      255,
+      253,
+      55
+    ],
+    "name": "Sunshine yellow"
+  },
+  {
+    "rgb": [
+      255,
+      228,
+      181
+    ],
+    "name": "Moccasin"
+  },
+  {
+    "rgb": [
+      255,
+      186,
+      0
+    ],
+    "name": "Selective yellow"
+  },
+  {
+    "rgb": [
+      213,
+      176,
+      11
+    ],
+    "name": "Gold metallic"
+  },
+  {
+    "rgb": [
+      253,
+      238,
+      0
+    ],
+    "name": "Aureolin"
+  },
+  {
+    "rgb": [
+      255,
+      170,
+      29
+    ],
+    "name": "Bright yellow crayola"
+  },
+  {
+    "rgb": [
+      255,
+      174,
+      66
+    ],
+    "name": "Yellow orange"
+  },
+  {
+    "rgb": [
+      250,
+      218,
+      94
+    ],
+    "name": "Naples yellow"
+  },
+  {
+    "rgb": [
+      249,
+      228,
+      134
+    ],
+    "name": "Buff"
+  },
+  {
+    "rgb": [
+      254,
+      241,
+      184
+    ],
+    "name": "Blond"
+  },
+  {
+    "rgb": [
+      248,
+      213,
+      104
+    ],
+    "name": "Orange yellow crayola"
+  },
+  {
+    "rgb": [
+      210,
+      181,
+      91
+    ],
+    "name": "Trombone"
+  },
+  {
+    "rgb": [
+      255,
+      239,
+      213
+    ],
+    "name": "Papaya whip"
+  },
+  {
+    "rgb": [
+      255,
+      255,
+      102
+    ],
+    "name": "Unmellow yellow"
+  },
+  {
+    "rgb": [
+      255,
+      239,
+      0
+    ],
+    "name": "Canary yellow"
+  },
+  {
+    "rgb": [
+      240,
+      230,
+      140
+    ],
+    "name": "Light khaki"
+  },
+  {
+    "rgb": [
+      255,
+      216,
+      0
+    ],
+    "name": "School bus yellow"
+  },
+  {
+    "rgb": [
+      245,
+      245,
+      220
+    ],
+    "name": "Beige"
+  },
+  {
+    "rgb": [
+      239,
+      209,
+      149
+    ],
+    "name": "Deep champagne"
+  },
+  {
+    "rgb": [
+      226,
+      202,
+      118
+    ],
+    "name": "Sand"
+  },
+  {
+    "rgb": [
+      253,
+      255,
+      0
+    ],
+    "name": "Lemon yellow"
+  },
+  {
+    "rgb": [
+      228,
+      217,
+      111
+    ],
+    "name": "Straw"
+  },
+  {
+    "rgb": [
+      227,
+      249,
+      136
+    ],
+    "name": "Mindaro"
+  },
+  {
+    "rgb": [
+      255,
+      218,
+      3
+    ],
+    "name": "Sunflower"
+  },
+  {
+    "rgb": [
+      232,
+      172,
+      65
+    ],
+    "name": "Hunyadi yellow"
+  },
+  {
+    "rgb": [
+      218,
+      165,
+      32
+    ],
+    "name": "Goldenrod"
+  },
+  {
+    "rgb": [
+      227,
+      168,
+      87
+    ],
+    "name": "Indian yellow"
+  },
+  {
+    "rgb": [
+      250,
+      250,
+      210
+    ],
+    "name": "Light goldenrod"
+  }
+]

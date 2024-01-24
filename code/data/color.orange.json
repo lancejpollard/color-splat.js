@@ -1,0 +1,794 @@
+[
+  {
+    "rgb": [
+      250,
+      166,
+      50
+    ],
+    "name": "Sunrise orange"
+  },
+  {
+    "rgb": [
+      255,
+      229,
+      180
+    ],
+    "name": "Peach"
+  },
+  {
+    "rgb": [
+      255,
+      126,
+      0
+    ],
+    "name": "Amber SAE/ECE"
+  },
+  {
+    "rgb": [
+      255,
+      153,
+      102
+    ],
+    "name": "Atomic tangerine"
+  },
+  {
+    "rgb": [
+      244,
+      164,
+      96
+    ],
+    "name": "Sandy brown"
+  },
+  {
+    "rgb": [
+      195,
+      71,
+      35
+    ],
+    "name": "Dark pastel red"
+  },
+  {
+    "rgb": [
+      226,
+      110,
+      27
+    ],
+    "name": "Orangutan orange"
+  },
+  {
+    "rgb": [
+      201,
+      90,
+      73
+    ],
+    "name": "Cedar chest"
+  },
+  {
+    "rgb": [
+      251,
+      136,
+      66
+    ],
+    "name": "Mango tango"
+  },
+  {
+    "rgb": [
+      207,
+      91,
+      46
+    ],
+    "name": "Medium vermilion"
+  },
+  {
+    "rgb": [
+      252,
+      76,
+      2
+    ],
+    "name": "Tangelo"
+  },
+  {
+    "rgb": [
+      195,
+      82,
+      20
+    ],
+    "name": "Alloy orange"
+  },
+  {
+    "rgb": [
+      217,
+      116,
+      72
+    ],
+    "name": "Copper red"
+  },
+  {
+    "rgb": [
+      232,
+      150,
+      17
+    ],
+    "name": "Gamboge"
+  },
+  {
+    "rgb": [
+      222,
+      184,
+      135
+    ],
+    "name": "Burlywood"
+  },
+  {
+    "rgb": [
+      205,
+      87,
+      0
+    ],
+    "name": "Tenne tawny"
+  },
+  {
+    "rgb": [
+      253,
+      103,
+      58
+    ],
+    "name": "Smashed pumpkin"
+  },
+  {
+    "rgb": [
+      237,
+      145,
+      33
+    ],
+    "name": "Carrot orange"
+  },
+  {
+    "rgb": [
+      243,
+      124,
+      32
+    ],
+    "name": "Goldfish orange"
+  },
+  {
+    "rgb": [
+      255,
+      94,
+      14
+    ],
+    "name": "Vivid orange"
+  },
+  {
+    "rgb": [
+      236,
+      88,
+      0
+    ],
+    "name": "Persimmon"
+  },
+  {
+    "rgb": [
+      255,
+      160,
+      137
+    ],
+    "name": "Vivid tangerine"
+  },
+  {
+    "rgb": [
+      242,
+      110,
+      1
+    ],
+    "name": "Philippine orange"
+  },
+  {
+    "rgb": [
+      218,
+      138,
+      103
+    ],
+    "name": "Copper crayola"
+  },
+  {
+    "rgb": [
+      255,
+      127,
+      80
+    ],
+    "name": "Coral"
+  },
+  {
+    "rgb": [
+      205,
+      149,
+      117
+    ],
+    "name": "Antique brass"
+  },
+  {
+    "rgb": [
+      182,
+      83,
+      7
+    ],
+    "name": "Windsor tan"
+  },
+  {
+    "rgb": [
+      240,
+      97,
+      5
+    ],
+    "name": "Spanish orange"
+  },
+  {
+    "rgb": [
+      255,
+      69,
+      0
+    ],
+    "name": "Orange-red"
+  },
+  {
+    "rgb": [
+      254,
+      186,
+      173
+    ],
+    "name": "Melon"
+  },
+  {
+    "rgb": [
+      246,
+      131,
+      38
+    ],
+    "name": "Monarch orange"
+  },
+  {
+    "rgb": [
+      255,
+      105,
+      31
+    ],
+    "name": "Orange red"
+  },
+  {
+    "rgb": [
+      233,
+      150,
+      122
+    ],
+    "name": "Dark salmon"
+  },
+  {
+    "rgb": [
+      243,
+      122,
+      72
+    ],
+    "name": "Mandarin"
+  },
+  {
+    "rgb": [
+      192,
+      64,
+      0
+    ],
+    "name": "Mahogany"
+  },
+  {
+    "rgb": [
+      250,
+      91,
+      61
+    ],
+    "name": "Orange soda"
+  },
+  {
+    "rgb": [
+      255,
+      122,
+      0
+    ],
+    "name": "Heat wave"
+  },
+  {
+    "rgb": [
+      255,
+      241,
+      215
+    ],
+    "name": "Papaya whip"
+  },
+  {
+    "rgb": [
+      255,
+      189,
+      136
+    ],
+    "name": "Macaroni and cheese"
+  },
+  {
+    "rgb": [
+      251,
+      79,
+      20
+    ],
+    "name": "Orioles orange"
+  },
+  {
+    "rgb": [
+      230,
+      129,
+      47
+    ],
+    "name": "Cadmium orange"
+  },
+  {
+    "rgb": [
+      232,
+      145,
+      73
+    ],
+    "name": "Jasper orange"
+  },
+  {
+    "rgb": [
+      254,
+      111,
+      94
+    ],
+    "name": "Bittersweet"
+  },
+  {
+    "rgb": [
+      229,
+      170,
+      112
+    ],
+    "name": "Fawn"
+  },
+  {
+    "rgb": [
+      251,
+      77,
+      70
+    ],
+    "name": "Tart orange"
+  },
+  {
+    "rgb": [
+      183,
+      65,
+      14
+    ],
+    "name": "Rust"
+  },
+  {
+    "rgb": [
+      204,
+      119,
+      34
+    ],
+    "name": "Ocher"
+  },
+  {
+    "rgb": [
+      243,
+      120,
+      53
+    ],
+    "name": "Papaya orange"
+  },
+  {
+    "rgb": [
+      238,
+      89,
+      33
+    ],
+    "name": "Halloween orange"
+  },
+  {
+    "rgb": [
+      236,
+      118,
+      37
+    ],
+    "name": "Vivid tangelo"
+  },
+  {
+    "rgb": [
+      245,
+      134,
+      107
+    ],
+    "name": "Starfish orange"
+  },
+  {
+    "rgb": [
+      237,
+      160,
+      18
+    ],
+    "name": "Marigold"
+  },
+  {
+    "rgb": [
+      138,
+      51,
+      36
+    ],
+    "name": "Burnt umber"
+  },
+  {
+    "rgb": [
+      222,
+      170,
+      136
+    ],
+    "name": "Tumbleweed"
+  },
+  {
+    "rgb": [
+      227,
+      74,
+      39
+    ],
+    "name": "Flame"
+  },
+  {
+    "rgb": [
+      238,
+      155,
+      23
+    ],
+    "name": "Orange egg"
+  },
+  {
+    "rgb": [
+      255,
+      165,
+      44
+    ],
+    "name": "Deep saffron"
+  },
+  {
+    "rgb": [
+      215,
+      83,
+      65
+    ],
+    "name": "Dark coral"
+  },
+  {
+    "rgb": [
+      254,
+      216,
+      177
+    ],
+    "name": "Light orange"
+  },
+  {
+    "rgb": [
+      239,
+      93,
+      34
+    ],
+    "name": "Salamander orange"
+  },
+  {
+    "rgb": [
+      226,
+      99,
+      16
+    ],
+    "name": "Metallic orange"
+  },
+  {
+    "rgb": [
+      227,
+      168,
+      87
+    ],
+    "name": "Indian sunset"
+  },
+  {
+    "rgb": [
+      250,
+      186,
+      95
+    ],
+    "name": "Rajah"
+  },
+  {
+    "rgb": [
+      247,
+      149,
+      74
+    ],
+    "name": "Ginger orange"
+  },
+  {
+    "rgb": [
+      255,
+      79,
+      0
+    ],
+    "name": "International orange"
+  },
+  {
+    "rgb": [
+      226,
+      114,
+      91
+    ],
+    "name": "Terracotta"
+  },
+  {
+    "rgb": [
+      247,
+      127,
+      0
+    ],
+    "name": "University Of Tennessee orange"
+  },
+  {
+    "rgb": [
+      235,
+      104,
+      65
+    ],
+    "name": "Chinese orange"
+  },
+  {
+    "rgb": [
+      250,
+      91,
+      61
+    ],
+    "name": "Portland orange"
+  },
+  {
+    "rgb": [
+      255,
+      140,
+      0
+    ],
+    "name": "Dark orange"
+  },
+  {
+    "rgb": [
+      255,
+      85,
+      0
+    ],
+    "name": "Orange pantone"
+  },
+  {
+    "rgb": [
+      255,
+      153,
+      68
+    ],
+    "name": "Royal orange"
+  },
+  {
+    "rgb": [
+      255,
+      159,
+      0
+    ],
+    "name": "Orange peel"
+  },
+  {
+    "rgb": [
+      255,
+      160,
+      122
+    ],
+    "name": "Light salmon"
+  },
+  {
+    "rgb": [
+      242,
+      143,
+      28
+    ],
+    "name": "Beer orange"
+  },
+  {
+    "rgb": [
+      247,
+      160,
+      140
+    ],
+    "name": "Soap orange"
+  },
+  {
+    "rgb": [
+      231,
+      110,
+      29
+    ],
+    "name": "Basketball orange"
+  },
+  {
+    "rgb": [
+      159,
+      84,
+      0
+    ],
+    "name": "Clay"
+  },
+  {
+    "rgb": [
+      249,
+      158,
+      88
+    ],
+    "name": "Sherbert orange"
+  },
+  {
+    "rgb": [
+      227,
+      171,
+      87
+    ],
+    "name": "Sunray"
+  },
+  {
+    "rgb": [
+      215,
+      72,
+      38
+    ],
+    "name": "Vermilion"
+  },
+  {
+    "rgb": [
+      217,
+      144,
+      88
+    ],
+    "name": "Persian orange"
+  },
+  {
+    "rgb": [
+      251,
+      176,
+      49
+    ],
+    "name": "Candlelight orange"
+  },
+  {
+    "rgb": [
+      255,
+      143,
+      0
+    ],
+    "name": "Princeton orange"
+  },
+  {
+    "rgb": [
+      230,
+      128,
+      0
+    ],
+    "name": "Fulvous"
+  },
+  {
+    "rgb": [
+      203,
+      65,
+      11
+    ],
+    "name": "Sinopia"
+  },
+  {
+    "rgb": [
+      245,
+      118,
+      26
+    ],
+    "name": "Pumpkin"
+  },
+  {
+    "rgb": [
+      204,
+      85,
+      0
+    ],
+    "name": "Burnt orange"
+  },
+  {
+    "rgb": [
+      254,
+      186,
+      79
+    ],
+    "name": "Pastel orange"
+  },
+  {
+    "rgb": [
+      251,
+      206,
+      177
+    ],
+    "name": "Apricot"
+  },
+  {
+    "rgb": [
+      255,
+      174,
+      66
+    ],
+    "name": "Yellow-orange"
+  },
+  {
+    "rgb": [
+      205,
+      127,
+      50
+    ],
+    "name": "Bronze"
+  },
+  {
+    "rgb": [
+      242,
+      133,
+      0
+    ],
+    "name": "Tangerine"
+  },
+  {
+    "rgb": [
+      175,
+      110,
+      77
+    ],
+    "name": "Brown sugar"
+  },
+  {
+    "rgb": [
+      255,
+      120,
+      0
+    ],
+    "name": "Safety orange"
+  },
+  {
+    "rgb": [
+      214,
+      138,
+      89
+    ],
+    "name": "Raw Sienna"
+  },
+  {
+    "rgb": [
+      233,
+      116,
+      81
+    ],
+    "name": "Burnt Sienna"
+  },
+  {
+    "rgb": [
+      253,
+      189,
+      124
+    ],
+    "name": "Mellow apricot"
+  },
+  {
+    "rgb": [
+      241,
+      147,
+      96
+    ],
+    "name": "Creamsicle orange"
+  }
+]

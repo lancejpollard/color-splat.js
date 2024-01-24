@@ -1,0 +1,794 @@
+[
+  {
+    "rgb": [
+      214,
+      202,
+      221
+    ],
+    "name": "Languid lavender"
+  },
+  {
+    "rgb": [
+      78,
+      42,
+      132
+    ],
+    "name": "Northwestern purple"
+  },
+  {
+    "rgb": [
+      82,
+      24,
+      250
+    ],
+    "name": "Han purple"
+  },
+  {
+    "rgb": [
+      80,
+      52,
+      80
+    ],
+    "name": "Raisin"
+  },
+  {
+    "rgb": [
+      143,
+      0,
+      255
+    ],
+    "name": "Violet"
+  },
+  {
+    "rgb": [
+      81,
+      40,
+      136
+    ],
+    "name": "Kansas State University purple"
+  },
+  {
+    "rgb": [
+      166,
+      58,
+      121
+    ],
+    "name": "Maximum red purple"
+  },
+  {
+    "rgb": [
+      223,
+      0,
+      255
+    ],
+    "name": "Phlox"
+  },
+  {
+    "rgb": [
+      250,
+      230,
+      250
+    ],
+    "name": "Pale purple"
+  },
+  {
+    "rgb": [
+      78,
+      81,
+      128
+    ],
+    "name": "Purple navy"
+  },
+  {
+    "rgb": [
+      166,
+      137,
+      225
+    ],
+    "name": "Lavender"
+  },
+  {
+    "rgb": [
+      139,
+      0,
+      139
+    ],
+    "name": "Dark magenta"
+  },
+  {
+    "rgb": [
+      222,
+      111,
+      161
+    ],
+    "name": "Liserian purple"
+  },
+  {
+    "rgb": [
+      116,
+      66,
+      200
+    ],
+    "name": "Purple heart"
+  },
+  {
+    "rgb": [
+      153,
+      102,
+      204
+    ],
+    "name": "Amethyst"
+  },
+  {
+    "rgb": [
+      180,
+      0,
+      255
+    ],
+    "name": "Fuchsia blue"
+  },
+  {
+    "rgb": [
+      172,
+      172,
+      230
+    ],
+    "name": "Maximum blue purple"
+  },
+  {
+    "rgb": [
+      210,
+      158,
+      255
+    ],
+    "name": "Bright lilac"
+  },
+  {
+    "rgb": [
+      224,
+      176,
+      255
+    ],
+    "name": "Mauve"
+  },
+  {
+    "rgb": [
+      221,
+      160,
+      221
+    ],
+    "name": "Plum"
+  },
+  {
+    "rgb": [
+      148,
+      0,
+      211
+    ],
+    "name": "Dark violet"
+  },
+  {
+    "rgb": [
+      154,
+      78,
+      174
+    ],
+    "name": "Purpureus"
+  },
+  {
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "name": "Fuchsia"
+  },
+  {
+    "rgb": [
+      112,
+      41,
+      99
+    ],
+    "name": "Byzantium"
+  },
+  {
+    "rgb": [
+      159,
+      0,
+      255
+    ],
+    "name": "Vivid violet"
+  },
+  {
+    "rgb": [
+      147,
+      112,
+      219
+    ],
+    "name": "Medium purple"
+  },
+  {
+    "rgb": [
+      218,
+      112,
+      214
+    ],
+    "name": "Orchid"
+  },
+  {
+    "rgb": [
+      171,
+      39,
+      79
+    ],
+    "name": "Amaranth purple"
+  },
+  {
+    "rgb": [
+      159,
+      69,
+      118
+    ],
+    "name": "Magenta haze"
+  },
+  {
+    "rgb": [
+      150,
+      120,
+      182
+    ],
+    "name": "Purple mountain majesty"
+  },
+  {
+    "rgb": [
+      114,
+      14,
+      158
+    ],
+    "name": "Yahoo purple"
+  },
+  {
+    "rgb": [
+      204,
+      0,
+      255
+    ],
+    "name": "Vivid orchid"
+  },
+  {
+    "rgb": [
+      211,
+      155,
+      203
+    ],
+    "name": "Light orchid"
+  },
+  {
+    "rgb": [
+      197,
+      75,
+      140
+    ],
+    "name": "Mulberry"
+  },
+  {
+    "rgb": [
+      83,
+      1,
+      63
+    ],
+    "name": "Claret"
+  },
+  {
+    "rgb": [
+      69,
+      44,
+      99
+    ],
+    "name": "Hallmark purple"
+  },
+  {
+    "rgb": [
+      106,
+      13,
+      173
+    ],
+    "name": "True purple"
+  },
+  {
+    "rgb": [
+      191,
+      169,
+      224
+    ],
+    "name": "Periwinkle"
+  },
+  {
+    "rgb": [
+      133,
+      96,
+      136
+    ],
+    "name": "Chinese violet"
+  },
+  {
+    "rgb": [
+      242,
+      193,
+      209
+    ],
+    "name": "Fairy tale"
+  },
+  {
+    "rgb": [
+      72,
+      61,
+      139
+    ],
+    "name": "Dark slate blue"
+  },
+  {
+    "rgb": [
+      216,
+      191,
+      216
+    ],
+    "name": "Thistle"
+  },
+  {
+    "rgb": [
+      121,
+      104,
+      120
+    ],
+    "name": "Old lavender"
+  },
+  {
+    "rgb": [
+      179,
+      158,
+      181
+    ],
+    "name": "Lilac luster"
+  },
+  {
+    "rgb": [
+      114,
+      36,
+      108
+    ],
+    "name": "Palatinate"
+  },
+  {
+    "rgb": [
+      153,
+      50,
+      204
+    ],
+    "name": "Dark orchid"
+  },
+  {
+    "rgb": [
+      160,
+      32,
+      240
+    ],
+    "name": "Veronica"
+  },
+  {
+    "rgb": [
+      48,
+      25,
+      52
+    ],
+    "name": "Dark purple"
+  },
+  {
+    "rgb": [
+      160,
+      32,
+      240
+    ],
+    "name": "Purple X11"
+  },
+  {
+    "rgb": [
+      103,
+      49,
+      70
+    ],
+    "name": "Old mauve"
+  },
+  {
+    "rgb": [
+      89,
+      70,
+      178
+    ],
+    "name": "Plump purple"
+  },
+  {
+    "rgb": [
+      191,
+      0,
+      255
+    ],
+    "name": "Electric purple"
+  },
+  {
+    "rgb": [
+      120,
+      81,
+      169
+    ],
+    "name": "Royal purple"
+  },
+  {
+    "rgb": [
+      175,
+      162,
+      195
+    ],
+    "name": "Heather"
+  },
+  {
+    "rgb": [
+      120,
+      24,
+      74
+    ],
+    "name": "Pansy purple"
+  },
+  {
+    "rgb": [
+      145,
+      92,
+      131
+    ],
+    "name": "Antique fuchsia"
+  },
+  {
+    "rgb": [
+      136,
+      0,
+      133
+    ],
+    "name": "Mardi Gras"
+  },
+  {
+    "rgb": [
+      171,
+      146,
+      179
+    ],
+    "name": "Glossy grape"
+  },
+  {
+    "rgb": [
+      186,
+      85,
+      211
+    ],
+    "name": "Medium orchid"
+  },
+  {
+    "rgb": [
+      108,
+      48,
+      130
+    ],
+    "name": "Eminence"
+  },
+  {
+    "rgb": [
+      183,
+      132,
+      167
+    ],
+    "name": "Opera mauve"
+  },
+  {
+    "rgb": [
+      102,
+      2,
+      60
+    ],
+    "name": "Tyrian purple"
+  },
+  {
+    "rgb": [
+      67,
+      41,
+      77
+    ],
+    "name": "Fig"
+  },
+  {
+    "rgb": [
+      134,
+      96,
+      142
+    ],
+    "name": "Pomp and power"
+  },
+  {
+    "rgb": [
+      88,
+      66,
+      124
+    ],
+    "name": "Cyber grape"
+  },
+  {
+    "rgb": [
+      112,
+      38,
+      112
+    ],
+    "name": "Midnight"
+  },
+  {
+    "rgb": [
+      217,
+      130,
+      181
+    ],
+    "name": "Middle purple"
+  },
+  {
+    "rgb": [
+      200,
+      162,
+      200
+    ],
+    "name": "Lilac"
+  },
+  {
+    "rgb": [
+      159,
+      0,
+      197
+    ],
+    "name": "Purple Munsell"
+  },
+  {
+    "rgb": [
+      86,
+      60,
+      92
+    ],
+    "name": "English violet"
+  },
+  {
+    "rgb": [
+      139,
+      114,
+      190
+    ],
+    "name": "Middle blue purple"
+  },
+  {
+    "rgb": [
+      223,
+      115,
+      255
+    ],
+    "name": "Heliotrope"
+  },
+  {
+    "rgb": [
+      181,
+      51,
+      137
+    ],
+    "name": "Fandango"
+  },
+  {
+    "rgb": [
+      50,
+      23,
+      77
+    ],
+    "name": "Russian violet"
+  },
+  {
+    "rgb": [
+      112,
+      67,
+      91
+    ],
+    "name": "Eggplant"
+  },
+  {
+    "rgb": [
+      248,
+      244,
+      255
+    ],
+    "name": "Magnolia"
+  },
+  {
+    "rgb": [
+      136,
+      6,
+      206
+    ],
+    "name": "French violet"
+  },
+  {
+    "rgb": [
+      189,
+      51,
+      164
+    ],
+    "name": "Byzantine"
+  },
+  {
+    "rgb": [
+      129,
+      81,
+      107
+    ],
+    "name": "Twilight lavender"
+  },
+  {
+    "rgb": [
+      138,
+      43,
+      226
+    ],
+    "name": "Blue violet"
+  },
+  {
+    "rgb": [
+      160,
+      108,
+      203
+    ],
+    "name": "Iris"
+  },
+  {
+    "rgb": [
+      128,
+      0,
+      128
+    ],
+    "name": "Patriarch"
+  },
+  {
+    "rgb": [
+      102,
+      51,
+      153
+    ],
+    "name": "Rebecca purple"
+  },
+  {
+    "rgb": [
+      183,
+      104,
+      162
+    ],
+    "name": "Pearly purple"
+  },
+  {
+    "rgb": [
+      188,
+      167,
+      232
+    ],
+    "name": "Wisteria"
+  },
+  {
+    "rgb": [
+      135,
+      50,
+      96
+    ],
+    "name": "Amaranth medium purple"
+  },
+  {
+    "rgb": [
+      134,
+      96,
+      142
+    ],
+    "name": "French lilac"
+  },
+  {
+    "rgb": [
+      178,
+      132,
+      190
+    ],
+    "name": "African violet"
+  },
+  {
+    "rgb": [
+      75,
+      0,
+      130
+    ],
+    "name": "Indigo"
+  },
+  {
+    "rgb": [
+      162,
+      0,
+      109
+    ],
+    "name": "Flirt"
+  },
+  {
+    "rgb": [
+      51,
+      0,
+      111
+    ],
+    "name": "Persian indigo"
+  },
+  {
+    "rgb": [
+      48,
+      25,
+      52
+    ],
+    "name": "Dark purple"
+  },
+  {
+    "rgb": [
+      212,
+      115,
+      212
+    ],
+    "name": "French mauve"
+  },
+  {
+    "rgb": [
+      76,
+      40,
+      130
+    ],
+    "name": "Spanish violet"
+  },
+  {
+    "rgb": [
+      93,
+      57,
+      84
+    ],
+    "name": "Dark Byzantium"
+  },
+  {
+    "rgb": [
+      115,
+      51,
+      128
+    ],
+    "name": "Maximum purple"
+  },
+  {
+    "rgb": [
+      215,
+      147,
+      212
+    ],
+    "name": "Plum web"
+  },
+  {
+    "rgb": [
+      141,
+      78,
+      133
+    ],
+    "name": "Razzmic berry"
+  },
+  {
+    "rgb": [
+      254,
+      78,
+      218
+    ],
+    "name": "Purple pizzazz"
+  }
+]

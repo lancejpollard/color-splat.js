@@ -1,0 +1,786 @@
+[
+  {
+    "rgb": [
+      14,
+      12,
+      10
+    ],
+    "name": "Metal"
+  },
+  {
+    "rgb": [
+      67,
+      48,
+      46
+    ],
+    "name": "Old Burgundy"
+  },
+  {
+    "rgb": [
+      0,
+      39,
+      39
+    ],
+    "name": "Dark Forest"
+  },
+  {
+    "rgb": [
+      15,
+      0,
+      18
+    ],
+    "name": "Very Dark Purple"
+  },
+  {
+    "rgb": [
+      59,
+      27,
+      23
+    ],
+    "name": "Bistre"
+  },
+  {
+    "rgb": [
+      105,
+      105,
+      105
+    ],
+    "name": "Dim Gray"
+  },
+  {
+    "rgb": [
+      12,
+      9,
+      8
+    ],
+    "name": "Coal"
+  },
+  {
+    "rgb": [
+      54,
+      43,
+      50
+    ],
+    "name": "Black Plum"
+  },
+  {
+    "rgb": [
+      35,
+      43,
+      43
+    ],
+    "name": "Charleston Green"
+  },
+  {
+    "rgb": [
+      25,
+      28,
+      39
+    ],
+    "name": "Black Denim"
+  },
+  {
+    "rgb": [
+      15,
+      4,
+      4
+    ],
+    "name": "Raven"
+  },
+  {
+    "rgb": [
+      65,
+      74,
+      76
+    ],
+    "name": "Outer Space"
+  },
+  {
+    "rgb": [
+      52,
+      52,
+      52
+    ],
+    "name": "Jet Black"
+  },
+  {
+    "rgb": [
+      59,
+      60,
+      54
+    ],
+    "name": "Black Olive"
+  },
+  {
+    "rgb": [
+      182,
+      182,
+      180
+    ],
+    "name": "Gray X 11"
+  },
+  {
+    "rgb": [
+      26,
+      36,
+      33
+    ],
+    "name": "Dark Jungle Green"
+  },
+  {
+    "rgb": [
+      60,
+      71,
+      72
+    ],
+    "name": "Arsenic"
+  },
+  {
+    "rgb": [
+      102,
+      99,
+      98
+    ],
+    "name": "Granite Gray"
+  },
+  {
+    "rgb": [
+      11,
+      11,
+      11
+    ],
+    "name": "Neutral Black"
+  },
+  {
+    "rgb": [
+      14,
+      12,
+      1
+    ],
+    "name": "Power Black"
+  },
+  {
+    "rgb": [
+      58,
+      58,
+      56
+    ],
+    "name": "Blackberry"
+  },
+  {
+    "rgb": [
+      40,
+      35,
+      29
+    ],
+    "name": "Dark Chocolate"
+  },
+  {
+    "rgb": [
+      21,
+      25,
+      34
+    ],
+    "name": "Black Russian"
+  },
+  {
+    "rgb": [
+      50,
+      52,
+      65
+    ],
+    "name": "Parisian Night"
+  },
+  {
+    "rgb": [
+      65,
+      56,
+      57
+    ],
+    "name": "Black Cat"
+  },
+  {
+    "rgb": [
+      13,
+      9,
+      7
+    ],
+    "name": "Crow"
+  },
+  {
+    "rgb": [
+      17,
+      0,
+      17
+    ],
+    "name": "Glossy Black"
+  },
+  {
+    "rgb": [
+      22,
+      13,
+      8
+    ],
+    "name": "Pure Chocolate"
+  },
+  {
+    "rgb": [
+      59,
+      47,
+      47
+    ],
+    "name": "Black Coffee"
+  },
+  {
+    "rgb": [
+      85,
+      85,
+      85
+    ],
+    "name": "Davys Grey"
+  },
+  {
+    "rgb": [
+      53,
+      63,
+      62
+    ],
+    "name": "Army Uniform"
+  },
+  {
+    "rgb": [
+      128,
+      124,
+      125
+    ],
+    "name": "Storm Sky"
+  },
+  {
+    "rgb": [
+      36,
+      33,
+      36
+    ],
+    "name": "Black Raisins"
+  },
+  {
+    "rgb": [
+      3,
+      23,
+      1
+    ],
+    "name": "Very Dark Green"
+  },
+  {
+    "rgb": [
+      52,
+      52,
+      50
+    ],
+    "name": "Dark Charcoal"
+  },
+  {
+    "rgb": [
+      44,
+      53,
+      57
+    ],
+    "name": "Gunmetal"
+  },
+  {
+    "rgb": [
+      4,
+      7,
+      7
+    ],
+    "name": "Slate Black"
+  },
+  {
+    "rgb": [
+      4,
+      2,
+      0
+    ],
+    "name": "Spider"
+  },
+  {
+    "rgb": [
+      26,
+      17,
+      16
+    ],
+    "name": "Licorice"
+  },
+  {
+    "rgb": [
+      61,
+      60,
+      58
+    ],
+    "name": "Iridium"
+  },
+  {
+    "rgb": [
+      80,
+      74,
+      75
+    ],
+    "name": "Gray Wolf"
+  },
+  {
+    "rgb": [
+      26,
+      34,
+      40
+    ],
+    "name": "Alien Black"
+  },
+  {
+    "rgb": [
+      59,
+      49,
+      49
+    ],
+    "name": "Oil"
+  },
+  {
+    "rgb": [
+      54,
+      40,
+      25
+    ],
+    "name": "Cafe Americano"
+  },
+  {
+    "rgb": [
+      2,
+      4,
+      3
+    ],
+    "name": "Obsidian"
+  },
+  {
+    "rgb": [
+      54,
+      69,
+      79
+    ],
+    "name": "Blue Charcoal"
+  },
+  {
+    "rgb": [
+      35,
+      25,
+      30
+    ],
+    "name": "Ivory Black"
+  },
+  {
+    "rgb": [
+      5,
+      3,
+      1
+    ],
+    "name": "All Black"
+  },
+  {
+    "rgb": [
+      78,
+      83,
+      76
+    ],
+    "name": "Ebony"
+  },
+  {
+    "rgb": [
+      17,
+      0,
+      34
+    ],
+    "name": "Space Gray"
+  },
+  {
+    "rgb": [
+      35,
+      10,
+      19
+    ],
+    "name": "Dark Sienna"
+  },
+  {
+    "rgb": [
+      27,
+      27,
+      27
+    ],
+    "name": "Eerie Black"
+  },
+  {
+    "rgb": [
+      3,
+      3,
+      3
+    ],
+    "name": "True Black"
+  },
+  {
+    "rgb": [
+      53,
+      56,
+      57
+    ],
+    "name": "Onyx"
+  },
+  {
+    "rgb": [
+      77,
+      70,
+      70
+    ],
+    "name": "Dark Liver"
+  },
+  {
+    "rgb": [
+      37,
+      53,
+      41
+    ],
+    "name": "Black Leather Jacket"
+  },
+  {
+    "rgb": [
+      37,
+      35,
+      33
+    ],
+    "name": "Black Chestnut"
+  },
+  {
+    "rgb": [
+      27,
+      24,
+      17
+    ],
+    "name": "Black Chocolate"
+  },
+  {
+    "rgb": [
+      13,
+      9,
+      7
+    ],
+    "name": "Black Crow"
+  },
+  {
+    "rgb": [
+      73,
+      79,
+      85
+    ],
+    "name": "Abbey"
+  },
+  {
+    "rgb": [
+      8,
+      8,
+      6
+    ],
+    "name": "Carbon Black"
+  },
+  {
+    "rgb": [
+      28,
+      28,
+      28
+    ],
+    "name": "Night Shadow"
+  },
+  {
+    "rgb": [
+      61,
+      12,
+      2
+    ],
+    "name": "Black Bean"
+  },
+  {
+    "rgb": [
+      0,
+      0,
+      35
+    ],
+    "name": "Cool Black"
+  },
+  {
+    "rgb": [
+      103,
+      103,
+      103
+    ],
+    "name": "Granite"
+  },
+  {
+    "rgb": [
+      17,
+      16,
+      22
+    ],
+    "name": "Sombre Gray"
+  },
+  {
+    "rgb": [
+      70,
+      61,
+      62
+    ],
+    "name": "Black Truffle"
+  },
+  {
+    "rgb": [
+      38,
+      40,
+      42
+    ],
+    "name": "Slate"
+  },
+  {
+    "rgb": [
+      39,
+      37,
+      31
+    ],
+    "name": "Pitch Black"
+  },
+  {
+    "rgb": [
+      70,
+      62,
+      63
+    ],
+    "name": "Black Eel"
+  },
+  {
+    "rgb": [
+      20,
+      1,
+      0
+    ],
+    "name": "Very Dark Brown"
+  },
+  {
+    "rgb": [
+      43,
+      37,
+      35
+    ],
+    "name": "Blackstrap Molasses"
+  },
+  {
+    "rgb": [
+      77,
+      66,
+      62
+    ],
+    "name": "Basalt Black"
+  },
+  {
+    "rgb": [
+      0,
+      3,
+      2
+    ],
+    "name": "Panda Black"
+  },
+  {
+    "rgb": [
+      30,
+      39,
+      44
+    ],
+    "name": "Black Pearl"
+  },
+  {
+    "rgb": [
+      86,
+      80,
+      81
+    ],
+    "name": "Vampire Gray"
+  },
+  {
+    "rgb": [
+      25,
+      28,
+      39
+    ],
+    "name": "Dark Blue Sky"
+  },
+  {
+    "rgb": [
+      6,
+      6,
+      6
+    ],
+    "name": "Sable"
+  },
+  {
+    "rgb": [
+      91,
+      78,
+      75
+    ],
+    "name": "Black Sand"
+  },
+  {
+    "rgb": [
+      84,
+      98,
+      111
+    ],
+    "name": "Black Coral"
+  },
+  {
+    "rgb": [
+      72,
+      60,
+      50
+    ],
+    "name": "Dark Lava"
+  },
+  {
+    "rgb": [
+      12,
+      4,
+      4
+    ],
+    "name": "Asphalt"
+  },
+  {
+    "rgb": [
+      16,
+      14,
+      9
+    ],
+    "name": "Black Shadows"
+  },
+  {
+    "rgb": [
+      8,
+      4,
+      2
+    ],
+    "name": "Smoky Black"
+  },
+  {
+    "rgb": [
+      10,
+      5,
+      2
+    ],
+    "name": "Black Hole"
+  },
+  {
+    "rgb": [
+      18,
+      3,
+      33
+    ],
+    "name": "Gothic Grape"
+  },
+  {
+    "rgb": [
+      5,
+      5,
+      5
+    ],
+    "name": "Heavy Gray"
+  },
+  {
+    "rgb": [
+      1,
+      11,
+      19
+    ],
+    "name": "Rich Black Fogra"
+  },
+  {
+    "rgb": [
+      29,
+      0,
+      2
+    ],
+    "name": "Xiketic"
+  },
+  {
+    "rgb": [
+      12,
+      9,
+      10
+    ],
+    "name": "Black Night"
+  },
+  {
+    "rgb": [
+      1,
+      1,
+      39
+    ],
+    "name": "Black Rock"
+  },
+  {
+    "rgb": [
+      11,
+      7,
+      5
+    ],
+    "name": "Leather"
+  },
+  {
+    "rgb": [
+      38,
+      35,
+      53
+    ],
+    "name": "Black Steel"
+  },
+  {
+    "rgb": [
+      128,
+      128,
+      128
+    ],
+    "name": "Gray Web"
+  },
+  {
+    "rgb": [
+      23,
+      23,
+      23
+    ],
+    "name": "Cynical Black"
+  },
+  {
+    "rgb": [
+      46,
+      71,
+      59
+    ],
+    "name": "Lampblack"
+  },
+  {
+    "rgb": [
+      25,
+      28,
+      32
+    ],
+    "name": "Frost Black"
+  },
+  {
+    "rgb": [
+      33,
+      33,
+      34
+    ],
+    "name": "Vampire Black"
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "rgb": [
+      173,
+      67,
+      121
+    ],
+    "name": "Mystic Maroon"
+  },
+  {
+    "rgb": [
+      199,
+      67,
+      117
+    ],
+    "name": "Fuchsia Rose"
+  },
+  {
+    "rgb": [
+      227,
+      37,
+      107
+    ],
+    "name": "Razzmatazz"
+  },
+  {
+    "rgb": [
+      165,
+      11,
+      94
+    ],
+    "name": "Jazzberry Jam"
+  },
+  {
+    "rgb": [
+      255,
+      0,
+      144
+    ],
+    "name": "Magenta Process"
+  },
+  {
+    "rgb": [
+      217,
+      134,
+      149
+    ],
+    "name": "Shimmering Blush"
+  },
+  {
+    "rgb": [
+      199,
+      21,
+      133
+    ],
+    "name": "Medium Violet Red"
+  },
+  {
+    "rgb": [
+      255,
+      20,
+      147
+    ],
+    "name": "Deep Pink"
+  },
+  {
+    "rgb": [
+      252,
+      137,
+      172
+    ],
+    "name": "Tickle Me Pink"
+  },
+  {
+    "rgb": [
+      255,
+      102,
+      204
+    ],
+    "name": "Rose Pink"
+  },
+  {
+    "rgb": [
+      202,
+      31,
+      123
+    ],
+    "name": "Magenta Dye"
+  },
+  {
+    "rgb": [
+      244,
+      0,
+      161
+    ],
+    "name": "Fashion Fuchsia Pink"
+  },
+  {
+    "rgb": [
+      247,
+      127,
+      190
+    ],
+    "name": "Persian Pink"
+  },
+  {
+    "rgb": [
+      244,
+      194,
+      194
+    ],
+    "name": "Baby Pink"
+  },
+  {
+    "rgb": [
+      215,
+      24,
+      104
+    ],
+    "name": "Dogwood Rose"
+  },
+  {
+    "rgb": [
+      231,
+      84,
+      128
+    ],
+    "name": "Blush"
+  },
+  {
+    "rgb": [
+      246,
+      74,
+      138
+    ],
+    "name": "French Rose"
+  },
+  {
+    "rgb": [
+      214,
+      82,
+      130
+    ],
+    "name": "Mystic"
+  },
+  {
+    "rgb": [
+      255,
+      183,
+      197
+    ],
+    "name": "Cherry Blossom Pink"
+  },
+  {
+    "rgb": [
+      192,
+      68,
+      143
+    ],
+    "name": "Red Violet Crayola"
+  },
+  {
+    "rgb": [
+      255,
+      84,
+      112
+    ],
+    "name": "Fiery Rose"
+  },
+  {
+    "rgb": [
+      221,
+      187,
+      180
+    ],
+    "name": "Nude Pink"
+  },
+  {
+    "rgb": [
+      255,
+      188,
+      217
+    ],
+    "name": "Cotton Candy"
+  },
+  {
+    "rgb": [
+      243,
+      143,
+      169
+    ],
+    "name": "Vanilla Ice"
+  },
+  {
+    "rgb": [
+      255,
+      182,
+      193
+    ],
+    "name": "Light Pink"
+  },
+  {
+    "rgb": [
+      252,
+      108,
+      133
+    ],
+    "name": "Ultra Red"
+  },
+  {
+    "rgb": [
+      255,
+      67,
+      164
+    ],
+    "name": "Wild Strawberry"
+  },
+  {
+    "rgb": [
+      204,
+      51,
+      204
+    ],
+    "name": "Steel Pink"
+  },
+  {
+    "rgb": [
+      207,
+      113,
+      175
+    ],
+    "name": "Sky Magenta"
+  },
+  {
+    "rgb": [
+      207,
+      52,
+      118
+    ],
+    "name": "Telemagenta"
+  },
+  {
+    "rgb": [
+      255,
+      145,
+      175
+    ],
+    "name": "Baker Miller Pink"
+  },
+  {
+    "rgb": [
+      197,
+      75,
+      140
+    ],
+    "name": "Mulberry"
+  },
+  {
+    "rgb": [
+      250,
+      218,
+      221
+    ],
+    "name": "Pale Pink"
+  },
+  {
+    "rgb": [
+      218,
+      50,
+      135
+    ],
+    "name": "Deep Cerise Pink"
+  },
+  {
+    "rgb": [
+      227,
+      115,
+      131
+    ],
+    "name": "Watermelon"
+  },
+  {
+    "rgb": [
+      241,
+      156,
+      187
+    ],
+    "name": "Amaranth Pink"
+  },
+  {
+    "rgb": [
+      255,
+      111,
+      255
+    ],
+    "name": "Shocking Pink Crayola"
+  },
+  {
+    "rgb": [
+      209,
+      0,
+      86
+    ],
+    "name": "Rubine Red"
+  },
+  {
+    "rgb": [
+      215,
+      72,
+      148
+    ],
+    "name": "Pink Pantone"
+  },
+  {
+    "rgb": [
+      222,
+      93,
+      131
+    ],
+    "name": "Blush"
+  },
+  {
+    "rgb": [
+      205,
+      96,
+      126
+    ],
+    "name": "Cinnamon Satin"
+  },
+  {
+    "rgb": [
+      230,
+      143,
+      172
+    ],
+    "name": "Sweet Pink"
+  },
+  {
+    "rgb": [
+      218,
+      24,
+      132
+    ],
+    "name": "Barbie Pink"
+  },
+  {
+    "rgb": [
+      253,
+      63,
+      146
+    ],
+    "name": "French Fuchsia"
+  },
+  {
+    "rgb": [
+      242,
+      189,
+      205
+    ],
+    "name": "Orchid Pink"
+  },
+  {
+    "rgb": [
+      228,
+      113,
+      122
+    ],
+    "name": "Candy Pink"
+  },
+  {
+    "rgb": [
+      255,
+      29,
+      206
+    ],
+    "name": "Hot Magenta"
+  },
+  {
+    "rgb": [
+      241,
+      221,
+      207
+    ],
+    "name": "Champagne Pink"
+  },
+  {
+    "rgb": [
+      255,
+      51,
+      204
+    ],
+    "name": "Razzle Dazzle Pink"
+  },
+  {
+    "rgb": [
+      255,
+      0,
+      127
+    ],
+    "name": "Neon Pink"
+  },
+  {
+    "rgb": [
+      194,
+      30,
+      86
+    ],
+    "name": "Rose Red"
+  },
+  {
+    "rgb": [
+      212,
+      112,
+      162
+    ],
+    "name": "Wild Orchid"
+  },
+  {
+    "rgb": [
+      255,
+      145,
+      164
+    ],
+    "name": "Salmon Pink"
+  },
+  {
+    "rgb": [
+      176,
+      48,
+      96
+    ],
+    "name": "Dark Pink"
+  },
+  {
+    "rgb": [
+      200,
+      65,
+      134
+    ],
+    "name": "Smitten"
+  },
+  {
+    "rgb": [
+      222,
+      49,
+      99
+    ],
+    "name": "Cherry Pink"
+  },
+  {
+    "rgb": [
+      255,
+      166,
+      201
+    ],
+    "name": "Carnation Pink"
+  },
+  {
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "name": "Fuchsia"
+  },
+  {
+    "rgb": [
+      239,
+      187,
+      204
+    ],
+    "name": "Cameo Pink"
+  },
+  {
+    "rgb": [
+      231,
+      159,
+      196
+    ],
+    "name": "Kobi Pink"
+  },
+  {
+    "rgb": [
+      228,
+      0,
+      120
+    ],
+    "name": "Red Purple"
+  },
+  {
+    "rgb": [
+      179,
+      68,
+      108
+    ],
+    "name": "Irresistible"
+  },
+  {
+    "rgb": [
+      181,
+      51,
+      137
+    ],
+    "name": "Fandango"
+  },
+  {
+    "rgb": [
+      246,
+      83,
+      166
+    ],
+    "name": "Magenta Crayola"
+  },
+  {
+    "rgb": [
+      255,
+      193,
+      204
+    ],
+    "name": "Bubblegum"
+  },
+  {
+    "rgb": [
+      233,
+      54,
+      167
+    ],
+    "name": "Frostbite"
+  },
+  {
+    "rgb": [
+      239,
+      152,
+      170
+    ],
+    "name": "Mauvelous"
+  },
+  {
+    "rgb": [
+      255,
+      209,
+      220
+    ],
+    "name": "Mimi Pink"
+  },
+  {
+    "rgb": [
+      253,
+      221,
+      230
+    ],
+    "name": "Soft Pink"
+  },
+  {
+    "rgb": [
+      192,
+      128,
+      129
+    ],
+    "name": "Brownish Pink"
+  },
+  {
+    "rgb": [
+      252,
+      108,
+      133
+    ],
+    "name": "Ultra Red"
+  },
+  {
+    "rgb": [
+      227,
+      11,
+      93
+    ],
+    "name": "Raspberry"
+  },
+  {
+    "rgb": [
+      222,
+      111,
+      161
+    ],
+    "name": "China Pink"
+  },
+  {
+    "rgb": [
+      206,
+      70,
+      118
+    ],
+    "name": "Ruber"
+  },
+  {
+    "rgb": [
+      251,
+      96,
+      127
+    ],
+    "name": "Brink Pink"
+  },
+  {
+    "rgb": [
+      158,
+      94,
+      111
+    ],
+    "name": "Rose Dust"
+  },
+  {
+    "rgb": [
+      245,
+      111,
+      161
+    ],
+    "name": "Cyclamen"
+  },
+  {
+    "rgb": [
+      255,
+      221,
+      244
+    ],
+    "name": "Pink Lace"
+  },
+  {
+    "rgb": [
+      228,
+      0,
+      124
+    ],
+    "name": "Mexican Pink"
+  },
+  {
+    "rgb": [
+      255,
+      105,
+      180
+    ],
+    "name": "Hot Pink"
+  },
+  {
+    "rgb": [
+      231,
+      172,
+      207
+    ],
+    "name": "Pink Pearl"
+  },
+  {
+    "rgb": [
+      248,
+      131,
+      121
+    ],
+    "name": "Congo"
+  },
+  {
+    "rgb": [
+      159,
+      69,
+      118
+    ],
+    "name": "Magenta Haze"
+  },
+  {
+    "rgb": [
+      249,
+      66,
+      158
+    ],
+    "name": "Rose Bonbon"
+  },
+  {
+    "rgb": [
+      255,
+      0,
+      127
+    ],
+    "name": "Bright Pink"
+  },
+  {
+    "rgb": [
+      216,
+      178,
+      209
+    ],
+    "name": "Pink Lavender"
+  },
+  {
+    "rgb": [
+      207,
+      107,
+      169
+    ],
+    "name": "Super Pink"
+  },
+  {
+    "rgb": [
+      252,
+      116,
+      253
+    ],
+    "name": "Flamingo Pink"
+  },
+  {
+    "rgb": [
+      168,
+      81,
+      110
+    ],
+    "name": "China Rose"
+  },
+  {
+    "rgb": [
+      255,
+      85,
+      163
+    ],
+    "name": "Brilliant Rose"
+  },
+  {
+    "rgb": [
+      208,
+      65,
+      126
+    ],
+    "name": "Magenta Pantone"
+  },
+  {
+    "rgb": [
+      252,
+      15,
+      192
+    ],
+    "name": "Shocking Pink"
+  },
+  {
+    "rgb": [
+      246,
+      173,
+      198
+    ],
+    "name": "Valentine Pink"
+  },
+  {
+    "rgb": [
+      200,
+      80,
+      155
+    ],
+    "name": "Mulberry Crayola"
+  },
+  {
+    "rgb": [
+      255,
+      153,
+      153
+    ],
+    "name": "Salmon"
+  },
+  {
+    "rgb": [
+      254,
+      40,
+      162
+    ],
+    "name": "Persian Rose"
+  },
+  {
+    "rgb": [
+      204,
+      57,
+      123
+    ],
+    "name": "Fuchsia Purplish Pink"
+  },
+  {
+    "rgb": [
+      253,
+      108,
+      158
+    ],
+    "name": "French Pink"
+  },
+  {
+    "rgb": [
+      251,
+      0,
+      129
+    ],
+    "name": "Flickr Pink"
+  }
+]
