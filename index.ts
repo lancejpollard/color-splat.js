@@ -6,7 +6,44 @@ import colorBlind from 'color-blind'
 
 const colorHarmonizer = new Harmonizer()
 
-export default function splat(color: string) {
+export type Splat = {
+  rainbow: Array<string>
+  saturateds: Array<string>
+  lights: Array<string>
+  baseColor: string // Assuming baseColor is a string, adjust as necessary
+  analogous: Array<string> // Assuming analogous is an array of strings
+  colorCMYK: Array<number> // Assuming colorCMYK is an array of numbers
+  inverted: string // Assuming inverted is a string
+  protanomaly: string
+  deuteranomaly: string
+  tritanomaly: string
+  protanopia: string
+  deuteranopia: string
+  tritanopia: string
+  achromatomaly: string
+  achromatopsia: string
+  complementary: Array<string>
+  splitComplementary: Array<string>
+  triadic: Array<string>
+  clash: Array<string>
+  tetradic: Array<string>
+  neutral: Array<string>
+  tints: Array<string> // Assuming tints returns an array of strings
+  shades: Array<string> // Assuming shades returns an array of strings
+  colorSpaces: {
+    hex: string
+    rgb: { r: number; g: number; b: number }
+    rgbPercent: Array<number>
+    hsl: { h: number | null; s: number | null; l: number | null }
+    hsv: { h: number | null; s: number | null; v: number | null }
+    cieLab: { l: number | null; a: number | null; b: number | null }
+    xyz: { x: number | null; y: number | null; z: number | null }
+    cieLch: { l: number | null; c: number | null; h: number | null }
+    binary: Array<string>
+  }
+}
+
+export default function splat(color: string): Splat {
   const colorObject = new ColorObject(color)
   const colorRGBArray = colorConvert.hex.rgb(color) as [
     number,
@@ -21,38 +58,49 @@ export default function splat(color: string) {
   const colorCMYK = colorConvert.hex.cmyk(color)
   const baseColor = classifyColor(colorRGB.r, colorRGB.g, colorRGB.b)
   const analogous = colorHarmonizer.harmonize(color, 'analogous')
-  const rainbow = []
+  const rainbow: Array<string> = []
   let i = 0
   while (i < 360) {
-    const hex =
-      '#' +
-      colorConvert.hsl
-        .hex([i++, colorObject.hsl.s, colorObject.hsl.l])
-        .toUpperCase()
-    rainbow.push(hex)
+    if (colorObject.hsl.s != null && colorObject.hsl.l != null) {
+      const hex =
+        '#' +
+        colorConvert.hsl
+          .hex([i, colorObject.hsl.s, colorObject.hsl.l])
+          .toUpperCase()
+      rainbow.push(hex)
+    }
+    i++
   }
-  const saturateds = []
+  const saturateds: Array<string> = []
   const fraction = 100 / 8
   i = 0
   while (i < 8) {
-    const hex =
-      '#' +
-      colorConvert.hsl
-        .hex([colorObject.hsl.h, i * fraction, colorObject.hsl.l])
-        .toUpperCase()
-    saturateds.push(hex)
+    if (colorObject.hsl.h != null && colorObject.hsl.l != null) {
+      const hex =
+        '#' +
+        colorConvert.hsl
+          .hex([colorObject.hsl.h, i * fraction, colorObject.hsl.l])
+          .toUpperCase()
+      saturateds.push(hex)
+    }
     i++
   }
   saturateds.reverse()
-  const lights = []
+  const lights: Array<string> = []
   i = 0
   while (i < 8) {
-    const hex =
-      '#' +
-      colorConvert.hsl
-        .hex([colorObject.hsl.h, colorObject.hsl.s, i * fraction])
-        .toUpperCase()
-    lights.push(hex)
+    if (
+      colorObject.hsl.h != null &&
+      colorObject.hsl.s != null &&
+      colorObject.hsl.l != null
+    ) {
+      const hex =
+        '#' +
+        colorConvert.hsl
+          .hex([colorObject.hsl.h, colorObject.hsl.s, i * fraction])
+          .toUpperCase()
+      lights.push(hex)
+    }
     i++
   }
   lights.reverse()
@@ -90,11 +138,13 @@ export default function splat(color: string) {
       rgbPercent: colorRGBArray.map((x: number) =>
         round((x / 255) * 100),
       ),
-      hsl: colorObject.hsl,
-      hsv: colorObject.hsv,
-      cieLab: colorObject.lab,
-      xyz: colorObject.xyz,
-      cieLch: colorObject.lch,
+      hsl: colorObject.hsl as unknown as Splat['colorSpaces']['hsl'],
+      hsv: colorObject.hsv as unknown as Splat['colorSpaces']['hsv'],
+      cieLab:
+        colorObject.lab as unknown as Splat['colorSpaces']['cieLab'],
+      xyz: colorObject.xyz as unknown as Splat['colorSpaces']['xyz'],
+      cieLch:
+        colorObject.lch as unknown as Splat['colorSpaces']['cieLch'],
       binary: colorRGBArray.map((x: number) =>
         x.toString(2).padStart(8, '0'),
       ),
@@ -103,7 +153,7 @@ export default function splat(color: string) {
 }
 
 export function generateRainbowColors(): Array<string> {
-  const rainbow = []
+  const rainbow: Array<string> = []
   let i = 0
   while (i < 360) {
     const hex = '#' + colorConvert.hsl.hex([i++, 100, 69]).toUpperCase()
@@ -197,9 +247,11 @@ export function pickClosestColor(
   return bestColor
 }
 
-function round(n: number, x = 3): string {
-  return n
-    .toFixed(x)
-    .replace(/\.0+/, '')
-    .replace(/\.(\d)0+/, (_, $1) => `.${$1}`)
+function round(n: number, x = 3) {
+  return parseFloat(
+    n
+      .toFixed(x)
+      .replace(/\.0+/, '')
+      .replace(/\.(\d)0+/, (_, $1) => `.${$1}`),
+  )
 }
