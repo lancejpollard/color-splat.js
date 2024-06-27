@@ -180,7 +180,6 @@ export default function splat(c: string): Splat {
       x.toString(2).padStart(8, '0'),
     ),
     base: baseColor,
-    analogous,
     inverted: dehex(invertColor(color)).toUpperCase(),
     protanomaly: dehex(
       colorBlind.protanomaly(color) as string,
@@ -230,6 +229,7 @@ export default function splat(c: string): Splat {
       .harmonize(color, 'neutral')
       .map(dehex)
       .map(x => x.toUpperCase()),
+    analogous,
     tints: colorHarmonizer
       .tints(color, 8)
       .map(dehex)
@@ -240,7 +240,7 @@ export default function splat(c: string): Splat {
       .map(x => x.toUpperCase()),
     saturateds,
     lights,
-    rainbow,
+    rainbow: uniq(rainbow),
   }
 }
 
