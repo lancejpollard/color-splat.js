@@ -3,6 +3,7 @@ import ColorObject from 'colorjs.io'
 import { Harmonizer } from 'color-harmony'
 import invertColor from 'invert-color'
 import colorBlind from 'color-blind'
+import uniq from 'lodash/uniq'
 
 const colorHarmonizer = new Harmonizer()
 
@@ -12,7 +13,6 @@ export type Splat = {
   lights: Array<string>
   baseColor: string // Assuming baseColor is a string, adjust as necessary
   analogous: Array<string> // Assuming analogous is an array of strings
-  colorCMYK: Array<number> // Assuming colorCMYK is an array of numbers
   inverted: string // Assuming inverted is a string
   protanomaly: string
   deuteranomaly: string
@@ -34,6 +34,12 @@ export type Splat = {
     hex: string
     rgb: { r: number; g: number; b: number }
     rgbPercent: Array<number>
+    cmyk: {
+      c: number
+      m: number
+      y: number
+      k: number
+    }
     hsl: {
       h: number | undefined
       s: number | undefined
@@ -129,7 +135,6 @@ export default function splat(c: string): Splat {
     lights,
     baseColor,
     analogous,
-    colorCMYK,
     inverted: dehex(invertColor(color)).toUpperCase(),
     protanomaly: dehex(
       colorBlind.protanomaly(color) as string,
@@ -193,6 +198,12 @@ export default function splat(c: string): Splat {
       rgbPercent: colorRGBArray.map((x: number) =>
         round((x / 255) * 100),
       ),
+      cmyk: {
+        c: colorCMYK[0],
+        m: colorCMYK[1],
+        y: colorCMYK[2],
+        k: colorCMYK[3],
+      },
       hsl: {
         h: colorObject.hsl.h,
         s: colorObject.hsl.s,
@@ -232,7 +243,7 @@ export function generateRainbowColors(): Array<string> {
     const hex = colorConvert.hsl.hex([i++, 100, 69]).toUpperCase()
     rainbow.push(hex)
   }
-  return rainbow
+  return uniq(rainbow)
 }
 
 // https://stackoverflow.com/a/75842387/169992
