@@ -11,7 +11,7 @@ export type Splat = {
   rainbow: Array<string>
   saturateds: Array<string>
   lights: Array<string>
-  baseColor: string // Assuming baseColor is a string, adjust as necessary
+  base: string // Assuming baseColor is a string, adjust as necessary
   analogous: Array<string> // Assuming analogous is an array of strings
   inverted: string // Assuming inverted is a string
   protanomaly: string
@@ -23,50 +23,52 @@ export type Splat = {
   achromatomaly: string
   achromatopsia: string
   complementary: Array<string>
-  splitComplementary: Array<string>
+  split_complementary: Array<string>
   triadic: Array<string>
   clash: Array<string>
   tetradic: Array<string>
   neutral: Array<string>
   tints: Array<string> // Assuming tints returns an array of strings
   shades: Array<string> // Assuming shades returns an array of strings
-  colorSpaces: {
-    hex: string
-    rgb: { r: number; g: number; b: number }
-    rgbPercent: Array<number>
-    cmyk: {
-      c: number
-      m: number
-      y: number
-      k: number
-    }
-    hsl: {
-      h: number | undefined
-      s: number | undefined
-      l: number | undefined
-    }
-    hsv: {
-      h: number | undefined
-      s: number | undefined
-      v: number | undefined
-    }
-    cieLab: {
-      l: number | undefined
-      a: number | undefined
-      b: number | undefined
-    }
-    xyz: {
-      x: number | undefined
-      y: number | undefined
-      z: number | undefined
-    }
-    cieLch: {
-      l: number | undefined
-      c: number | undefined
-      h: number | undefined
-    }
-    binary: Array<string>
+  hex: string
+  rgb: {
+    r: number
+    g: number
+    b: number
+    percent: { r: number; g: number; b: number }
   }
+  cmyk: {
+    c: number
+    m: number
+    y: number
+    k: number
+  }
+  hsl: {
+    h: number | undefined
+    s: number | undefined
+    l: number | undefined
+  }
+  hsv: {
+    h: number | undefined
+    s: number | undefined
+    v: number | undefined
+  }
+  lab: {
+    l: number | undefined
+    a: number | undefined
+    b: number | undefined
+  }
+  xyz: {
+    x: number | undefined
+    y: number | undefined
+    z: number | undefined
+  }
+  lch: {
+    l: number | undefined
+    c: number | undefined
+    h: number | undefined
+  }
+  binary: Array<string>
 }
 
 export default function splat(c: string): Splat {
@@ -129,11 +131,55 @@ export default function splat(c: string): Splat {
   }
   lights.reverse()
 
+  const rgbPercent = colorRGBArray.map((x: number) =>
+    round((x / 255) * 100),
+  )
+
   return {
-    rainbow,
-    saturateds,
-    lights,
-    baseColor,
+    hex: dehex(color).toUpperCase(),
+    rgb: {
+      ...colorRGB,
+      percent: {
+        r: rgbPercent[0]!,
+        g: rgbPercent[1]!,
+        b: rgbPercent[2]!,
+      },
+    },
+    cmyk: {
+      c: colorCMYK[0],
+      m: colorCMYK[1],
+      y: colorCMYK[2],
+      k: colorCMYK[3],
+    },
+    hsl: {
+      h: colorObject.hsl.h,
+      s: colorObject.hsl.s,
+      l: colorObject.hsl.l,
+    },
+    hsv: {
+      h: colorObject.hsv.h,
+      s: colorObject.hsv.s,
+      v: colorObject.hsv.v,
+    },
+    lab: {
+      l: colorObject.lab.l,
+      a: colorObject.lab.a,
+      b: colorObject.lab.b,
+    },
+    xyz: {
+      x: colorObject.xyz.x,
+      y: colorObject.xyz.y,
+      z: colorObject.xyz.z,
+    },
+    lch: {
+      l: colorObject.lch.l,
+      c: colorObject.lch.c,
+      h: colorObject.lch.h,
+    },
+    binary: colorRGBArray.map((x: number) =>
+      x.toString(2).padStart(8, '0'),
+    ),
+    base: baseColor,
     analogous,
     inverted: dehex(invertColor(color)).toUpperCase(),
     protanomaly: dehex(
@@ -164,7 +210,7 @@ export default function splat(c: string): Splat {
       .harmonize(color, 'complementary')
       .map(dehex)
       .map(x => x.toUpperCase()),
-    splitComplementary: colorHarmonizer
+    split_complementary: colorHarmonizer
       .harmonize(color, 'splitComplementary')
       .map(dehex)
       .map(x => x.toUpperCase()),
@@ -192,47 +238,9 @@ export default function splat(c: string): Splat {
       .shades(color, 8)
       .map(dehex)
       .map(x => x.toUpperCase()),
-    colorSpaces: {
-      hex: dehex(color).toUpperCase(),
-      rgb: colorRGB,
-      rgbPercent: colorRGBArray.map((x: number) =>
-        round((x / 255) * 100),
-      ),
-      cmyk: {
-        c: colorCMYK[0],
-        m: colorCMYK[1],
-        y: colorCMYK[2],
-        k: colorCMYK[3],
-      },
-      hsl: {
-        h: colorObject.hsl.h,
-        s: colorObject.hsl.s,
-        l: colorObject.hsl.l,
-      },
-      hsv: {
-        h: colorObject.hsv.h,
-        s: colorObject.hsv.s,
-        v: colorObject.hsv.v,
-      },
-      cieLab: {
-        l: colorObject.lab.l,
-        a: colorObject.lab.a,
-        b: colorObject.lab.b,
-      },
-      xyz: {
-        x: colorObject.xyz.x,
-        y: colorObject.xyz.y,
-        z: colorObject.xyz.z,
-      },
-      cieLch: {
-        l: colorObject.lch.l,
-        c: colorObject.lch.c,
-        h: colorObject.lch.h,
-      },
-      binary: colorRGBArray.map((x: number) =>
-        x.toString(2).padStart(8, '0'),
-      ),
-    },
+    saturateds,
+    lights,
+    rainbow,
   }
 }
 
