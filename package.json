@@ -1,6 +1,6 @@
 {
   "name": "@lancejpollard/color-splat.js",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "scripts": {
     "make": "tsc && tsc-alias",
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",

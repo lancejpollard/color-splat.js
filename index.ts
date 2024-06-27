@@ -34,16 +34,37 @@ export type Splat = {
     hex: string
     rgb: { r: number; g: number; b: number }
     rgbPercent: Array<number>
-    hsl: { h: number | null; s: number | null; l: number | null }
-    hsv: { h: number | null; s: number | null; v: number | null }
-    cieLab: { l: number | null; a: number | null; b: number | null }
-    xyz: { x: number | null; y: number | null; z: number | null }
-    cieLch: { l: number | null; c: number | null; h: number | null }
+    hsl: {
+      h: number | undefined
+      s: number | undefined
+      l: number | undefined
+    }
+    hsv: {
+      h: number | undefined
+      s: number | undefined
+      v: number | undefined
+    }
+    cieLab: {
+      l: number | undefined
+      a: number | undefined
+      b: number | undefined
+    }
+    xyz: {
+      x: number | undefined
+      y: number | undefined
+      z: number | undefined
+    }
+    cieLch: {
+      l: number | undefined
+      c: number | undefined
+      h: number | undefined
+    }
     binary: Array<string>
   }
 }
 
-export default function splat(color: string): Splat {
+export default function splat(c: string): Splat {
+  const color = `#${c}`
   const colorObject = new ColorObject(color)
   const colorRGBArray = colorConvert.hex.rgb(color) as [
     number,
@@ -57,16 +78,17 @@ export default function splat(color: string): Splat {
   }
   const colorCMYK = colorConvert.hex.cmyk(color)
   const baseColor = classifyColor(colorRGB.r, colorRGB.g, colorRGB.b)
-  const analogous = colorHarmonizer.harmonize(color, 'analogous')
+  const analogous = colorHarmonizer
+    .harmonize(color, 'analogous')
+    .map(dehex)
+    .map((x: string) => x.toUpperCase())
   const rainbow: Array<string> = []
   let i = 0
   while (i < 360) {
     if (colorObject.hsl.s != null && colorObject.hsl.l != null) {
-      const hex =
-        '#' +
-        colorConvert.hsl
-          .hex([i, colorObject.hsl.s, colorObject.hsl.l])
-          .toUpperCase()
+      const hex = colorConvert.hsl
+        .hex([i, colorObject.hsl.s, colorObject.hsl.l])
+        .toUpperCase()
       rainbow.push(hex)
     }
     i++
@@ -76,11 +98,9 @@ export default function splat(color: string): Splat {
   i = 0
   while (i < 8) {
     if (colorObject.hsl.h != null && colorObject.hsl.l != null) {
-      const hex =
-        '#' +
-        colorConvert.hsl
-          .hex([colorObject.hsl.h, i * fraction, colorObject.hsl.l])
-          .toUpperCase()
+      const hex = colorConvert.hsl
+        .hex([colorObject.hsl.h, i * fraction, colorObject.hsl.l])
+        .toUpperCase()
       saturateds.push(hex)
     }
     i++
@@ -94,11 +114,9 @@ export default function splat(color: string): Splat {
       colorObject.hsl.s != null &&
       colorObject.hsl.l != null
     ) {
-      const hex =
-        '#' +
-        colorConvert.hsl
-          .hex([colorObject.hsl.h, colorObject.hsl.s, i * fraction])
-          .toUpperCase()
+      const hex = colorConvert.hsl
+        .hex([colorObject.hsl.h, colorObject.hsl.s, i * fraction])
+        .toUpperCase()
       lights.push(hex)
     }
     i++
@@ -112,39 +130,94 @@ export default function splat(color: string): Splat {
     baseColor,
     analogous,
     colorCMYK,
-    inverted: invertColor(color),
-    protanomaly: colorBlind.protanomaly(color),
-    deuteranomaly: colorBlind.deuteranomaly(color),
-    tritanomaly: colorBlind.tritanomaly(color),
-    protanopia: colorBlind.protanopia(color),
-    deuteranopia: colorBlind.deuteranopia(color),
-    tritanopia: colorBlind.tritanopia(color),
-    achromatomaly: colorBlind.achromatomaly(color),
-    achromatopsia: colorBlind.achromatopsia(color),
-    complementary: colorHarmonizer.harmonize(color, 'complementary'),
-    splitComplementary: colorHarmonizer.harmonize(
-      color,
-      'splitComplementary',
-    ),
-    triadic: colorHarmonizer.harmonize(color, 'triadic'),
-    clash: colorHarmonizer.harmonize(color, 'clash'),
-    tetradic: colorHarmonizer.harmonize(color, 'tetradic'),
-    neutral: colorHarmonizer.harmonize(color, 'neutral'),
-    tints: colorHarmonizer.tints(color, 8),
-    shades: colorHarmonizer.shades(color, 8),
+    inverted: dehex(invertColor(color)).toUpperCase(),
+    protanomaly: dehex(
+      colorBlind.protanomaly(color) as string,
+    ).toUpperCase(),
+    deuteranomaly: dehex(
+      colorBlind.deuteranomaly(color) as string,
+    ).toUpperCase(),
+    tritanomaly: dehex(
+      colorBlind.tritanomaly(color) as string,
+    ).toUpperCase(),
+    protanopia: dehex(
+      colorBlind.protanopia(color) as string,
+    ).toUpperCase(),
+    deuteranopia: dehex(
+      colorBlind.deuteranopia(color) as string,
+    ).toUpperCase(),
+    tritanopia: dehex(
+      colorBlind.tritanopia(color) as string,
+    ).toUpperCase(),
+    achromatomaly: dehex(
+      colorBlind.achromatomaly(color) as string,
+    ).toUpperCase(),
+    achromatopsia: dehex(
+      colorBlind.achromatopsia(color) as string,
+    ).toUpperCase(),
+    complementary: colorHarmonizer
+      .harmonize(color, 'complementary')
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    splitComplementary: colorHarmonizer
+      .harmonize(color, 'splitComplementary')
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    triadic: colorHarmonizer
+      .harmonize(color, 'triadic')
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    clash: colorHarmonizer
+      .harmonize(color, 'clash')
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    tetradic: colorHarmonizer
+      .harmonize(color, 'tetradic')
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    neutral: colorHarmonizer
+      .harmonize(color, 'neutral')
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    tints: colorHarmonizer
+      .tints(color, 8)
+      .map(dehex)
+      .map(x => x.toUpperCase()),
+    shades: colorHarmonizer
+      .shades(color, 8)
+      .map(dehex)
+      .map(x => x.toUpperCase()),
     colorSpaces: {
-      hex: color,
+      hex: dehex(color).toUpperCase(),
       rgb: colorRGB,
       rgbPercent: colorRGBArray.map((x: number) =>
         round((x / 255) * 100),
       ),
-      hsl: colorObject.hsl as unknown as Splat['colorSpaces']['hsl'],
-      hsv: colorObject.hsv as unknown as Splat['colorSpaces']['hsv'],
-      cieLab:
-        colorObject.lab as unknown as Splat['colorSpaces']['cieLab'],
-      xyz: colorObject.xyz as unknown as Splat['colorSpaces']['xyz'],
-      cieLch:
-        colorObject.lch as unknown as Splat['colorSpaces']['cieLch'],
+      hsl: {
+        h: colorObject.hsl.h,
+        s: colorObject.hsl.s,
+        l: colorObject.hsl.l,
+      },
+      hsv: {
+        h: colorObject.hsv.h,
+        s: colorObject.hsv.s,
+        v: colorObject.hsv.v,
+      },
+      cieLab: {
+        l: colorObject.lab.l,
+        a: colorObject.lab.a,
+        b: colorObject.lab.b,
+      },
+      xyz: {
+        x: colorObject.xyz.x,
+        y: colorObject.xyz.y,
+        z: colorObject.xyz.z,
+      },
+      cieLch: {
+        l: colorObject.lch.l,
+        c: colorObject.lch.c,
+        h: colorObject.lch.h,
+      },
       binary: colorRGBArray.map((x: number) =>
         x.toString(2).padStart(8, '0'),
       ),
@@ -156,7 +229,7 @@ export function generateRainbowColors(): Array<string> {
   const rainbow: Array<string> = []
   let i = 0
   while (i < 360) {
-    const hex = '#' + colorConvert.hsl.hex([i++, 100, 69]).toUpperCase()
+    const hex = colorConvert.hsl.hex([i++, 100, 69]).toUpperCase()
     rainbow.push(hex)
   }
   return rainbow
@@ -254,4 +327,8 @@ function round(n: number, x = 3) {
       .replace(/\.0+/, '')
       .replace(/\.(\d)0+/, (_, $1) => `.${$1}`),
   )
+}
+
+function dehex(s: string) {
+  return s.slice(1) as string
 }
