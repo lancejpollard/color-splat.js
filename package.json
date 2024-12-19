@@ -1,6 +1,6 @@
 {
   "name": "@lancejpollard/color-splat.js",
-  "version": "0.0.12",
+  "version": "0.0.14",
   "scripts": {
     "make": "tsc && tsc-alias",
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
@@ -16,7 +16,7 @@
     "invert-color": "^2.0.0",
     "json-keys-sort": "^2.1.0",
     "lodash": "^4.17.21",
-    "tsc-alias": "^1.8.8"
+    "tsc-alias": "^1.8.10"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.202",
